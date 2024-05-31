@@ -17,6 +17,7 @@ services:
             REQ_ORG: Copyleft Certificate Co
             REQ_OU: My Organizational Unit
             REQ_CN: MyOpenVPN
+            EASYRSA_CRL_DAYS: 3650
         volumes:
             - ./openvpn/pki:/etc/openvpn/pki
             - ./openvpn/clients:/etc/openvpn/clients
